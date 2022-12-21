@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service TeradataReader {
+   // (Method definitions not shown)
+   rpc GetDataFromTD(TableName) returns (stream Resultset) {}
+}
+
+message TableName {
+  string table_name = 1;
+}
+
+// A response message containing a greeting
+message Resultset {
+  string result = 1;
+}
