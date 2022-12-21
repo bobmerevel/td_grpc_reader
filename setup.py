@@ -9,7 +9,7 @@ setup(
     author_email='emre.yigit01@gmail.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    url='https://github.com/gmyrianthous/example-publish-pypi',
+    url='https://github.com/bobmerevel/td_grpc_reader',
     keywords='example project',
     install_requires=[
         'urllib3',
